@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio of some pages 
+Portfolio of pages 
