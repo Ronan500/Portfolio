@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="reset.css">
 	  <link href="style.css" rel="stylesheet"/>
   </head>
-  <body>
+  <body onload="document.body.classList.add('loaded')">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
@@ -113,8 +113,8 @@
     	</div>
     </div>
     </div>
-    <hr class="my-4">
-    <!--- Fixed background -->
+    <!--<hr class="my-4">-->
+    <!-- Fixed background -->
     <figure>
       <div class="fixed-wrap">
         <div id="fixed">
@@ -289,8 +289,8 @@
            $('#picMtext').addClass('animated fadeInRight');
             $('#picMtext').css('visibility', 'visible');
          }
-    /*************
-        if((positiontop > 2302) && (positiontop < 2703)){
+/***********
+        if((positiontop > 1602) && (positiontop < 2103)){
           $('#left').addClass('animated zoomIn');
            $('#left').css('visibility', 'visible');
 
@@ -301,7 +301,7 @@
            $('#right').css('visibility', 'visible');
         }
 
-        if((positiontop > 2602) && (positiontop < 3003)){
+        if((positiontop > 2102) && (positiontop < 2603)){
           $('#left1').addClass('animated zoomIn');
            $('#left1').css('visibility', 'visible');
 
@@ -310,7 +310,7 @@
 
            $('#right1').addClass('animated zoomIn');
            $('#right1').css('visibility', 'visible');
-        }                                               ***************/
+        }                                             **************/
      });
    });
   </script>
