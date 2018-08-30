@@ -154,6 +154,7 @@ html p{
 #picMtext{
      visibility: hidden;
 }
+/*
 #mid{
     visibility: hidden;
 }
@@ -172,7 +173,7 @@ html p{
 #right1{
   visibility: hidden;
 }
-
+*/
 #parB p{
     padding-top: .6rem;
 }
