@@ -231,6 +231,13 @@ html p{
   color:  #0091EA;
 }
 
+.my-5 {#d5d5d5;
+ border-top: 1px solid rgba(0,0,0,.1);
+ width: 98%;
+ margin-top: 1.5rem;
+ margin-bottom: 1.5rem;
+}
+
 @media (max-width: 768px) {
   .card-title{
     font-size: 1.2rem;
